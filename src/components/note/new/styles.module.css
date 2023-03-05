@@ -1,0 +1,50 @@
+.container {
+  background-color: #67d7cc;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+textarea,
+input {
+  border: none;
+  resize: none;
+  background: transparent;
+}
+
+textarea {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 5px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+.container .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .footer button.save_icon {
+  width: 23px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+}

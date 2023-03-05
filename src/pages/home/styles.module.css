@@ -1,0 +1,39 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container h1 {
+}
+
+.container .search {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: rgb(233, 233, 233);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.container .search img {
+  width: 30px;
+}
+.container .search input.search_input {
+  border: none;
+  margin-top: 5px;
+  background-color: transparent;
+}
+
+.container .search input.search_input:focus {
+  outline: none;
+}
+
+.container .notes_list {
+  margin-top: 30px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}

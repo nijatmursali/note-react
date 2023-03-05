@@ -1,0 +1,32 @@
+.container {
+  background-color: #fef68a;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.container .footer p {
+  font-size: 16px;
+}
+
+.container .footer button.delete_icon {
+  width: 23px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
